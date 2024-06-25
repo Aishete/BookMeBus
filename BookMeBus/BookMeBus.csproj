@@ -103,6 +103,16 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="About.aspx" />
+    <Content Include="assets\images\books.jpg" />
+    <Content Include="assets\images\icons8-administrator-male-40.png" />
+    <Content Include="assets\images\icons8-billing-machine-50.png" />
+    <Content Include="assets\images\icons8-book-40.png" />
+    <Content Include="assets\images\icons8-category-40.png" />
+    <Content Include="assets\images\icons8-chart-40.png" />
+    <Content Include="assets\images\icons8-home-40.png" />
+    <Content Include="assets\images\icons8-location-40.png" />
+    <Content Include="assets\images\icons8-shopping-cart-40.png" />
+    <Content Include="assets\images\icons8-user-typing-using-typewriter-40.png" />
     <Content Include="Contact.aspx" />
     <Content Include="Content\bootstrap-grid.css" />
     <Content Include="Content\bootstrap-grid.min.css" />
