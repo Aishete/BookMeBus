@@ -7,13 +7,24 @@
     <title></title>
     <asp:ContentPlaceHolder ID="head" runat="server">
     </asp:ContentPlaceHolder>
+    <style type="text/css">
+        .auto-style1 {
+            width: 167px;
+            height: 65px;
+        }
+    </style>
 </head>
 <body>
     <form id="form1" runat="server">
         <div>
             <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
             </asp:ContentPlaceHolder>
-        </div>
+            <img alt="bookmebus" class="auto-style1" src="../../assets/images/bookmebus-logo.png" /></div>
+        <p>
+            <asp:Button ID="Button1" runat="server" Text="Bus" Width="51px" />
+        </p>
+        <p>
+            &nbsp;</p>
     </form>
 </body>
 </html>
