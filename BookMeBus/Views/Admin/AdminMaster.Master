@@ -7,13 +7,43 @@
     <title></title>
     <asp:ContentPlaceHolder ID="head" runat="server">
     </asp:ContentPlaceHolder>
+    <style type="text/css">
+        .auto-style1 {
+            width: 167px;
+            height: 65px;
+        }
+        .auto-style2 {
+            width: 30px;
+            height: 26px;
+        }
+        .auto-style3 {
+            width: 35px;
+            height: 36px;
+        }
+        #form1 {
+            height: 250px;
+        }
+        .auto-style4 {
+            width: 48px;
+            height: 38px;
+        }
+    </style>
 </head>
-<body>
+<body style="height: 257px">
     <form id="form1" runat="server">
         <div>
             <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
             </asp:ContentPlaceHolder>
+            <img alt="bookmebus" class="auto-style1" src="../../assets/images/bookmebus-logo.png" />
         </div>
+        <p>
+            <img class="auto-style2" src="file:///C:/Users/SPC-Store/source/repos/BookMeBus/BookMeBus/assets/images/bus-logo.png" /><asp:Button ID="btnBus" runat="server" Text="Bus" Width="47px" Height="26px" />
+        </p>
+        <p style="margin-left: 40px">
+            <asp:TextBox ID="btxControl1" runat="server" Height="32px" Width="212px" BackColor="White" ForeColor="#FF0066">Select palce of origin</asp:TextBox>
+            <img class="auto-style3" src="file:///C:/Users/SPC-Store/Downloads/icons8-plus-24.png" /><asp:TextBox ID="btxContron2" runat="server" Height="30px" Width="209px" BackColor="White" ForeColor="#FF6666">Select Destination</asp:TextBox>
+            <img class="auto-style3" src="file:///C:/Users/SPC-Store/Downloads/icons8-plus-24.png" /><asp:TextBox ID="btxControl3" runat="server" Height="29px" Width="199px" BackColor="Blue" BorderColor="Black" ForeColor="White" ValidateRequestMode="Enabled">Departure Date</asp:TextBox>
+            <img class="auto-style4" src="file:///C:/Users/SPC-Store/Downloads/icons8-calendar-48.png" /></p>
     </form>
 </body>
 </html>
