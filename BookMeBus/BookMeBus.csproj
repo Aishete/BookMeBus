@@ -103,6 +103,7 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="About.aspx" />
+    <Content Include="assets\images\bookmebus-logo.png" />
     <Content Include="assets\images\books.jpg" />
     <Content Include="assets\images\icons8-administrator-male-40.png" />
     <Content Include="assets\images\icons8-billing-machine-50.png" />
