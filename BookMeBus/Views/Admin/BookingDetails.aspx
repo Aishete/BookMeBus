@@ -31,7 +31,7 @@
         <asp:CheckBox ID="chkSeat4" runat="server" Text="Seat 4" /><br />
         <asp:CheckBox ID="chkSeat5" runat="server" Text="Seat 5" /><br />
 
-        <h3>Selected Seat: <asp:TextBox ID="txtSelectedSeat" runat="server" ReadOnly="true" /></h3>
+        <h3>Selected Seat: <asp:TextBox ID="txtSelectedSeat" runat="server" ReadOnly="true" OnTextChanged="txtSelectedSeat_TextChanged" /></h3>
         <h3>Total Seats: <asp:TextBox ID="txtTotalSeats" runat="server" ReadOnly="true" /></h3>
 
         <hr />

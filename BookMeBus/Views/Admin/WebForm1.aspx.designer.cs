@@ -11,7 +11,7 @@ namespace BookMeBus.Views.Admin
 {
 
 
-    public partial class HomePage
+    public partial class WebForm1
     {
     }
 }
