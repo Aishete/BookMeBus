@@ -13,5 +13,10 @@ namespace BookMeBus.Views.Admin
         {
 
         }
+
+        protected void ImageButton1_Click(object sender, ImageClickEventArgs e)
+        {
+
+        }
     }
 }
