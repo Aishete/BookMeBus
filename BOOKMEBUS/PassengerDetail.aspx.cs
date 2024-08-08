@@ -11,6 +11,7 @@ namespace BOOKMEBUS
 {
     public partial class PassengerDetail : System.Web.UI.Page
     {
+        private const string connectionString = "Data Source=DESKTOP-63T3P23;Initial Catalog=BookingTicketDB;Integrated Security=True;";
         protected void Page_Load(object sender, EventArgs e)
         {
             if (!IsPostBack)
@@ -21,7 +22,7 @@ namespace BOOKMEBUS
 
         protected void AddDatatolv()
         {
-            string connectionString = "Data Source=DESKTOP-63T3P23;Initial Catalog=BookingTicketDB;Integrated Security=True;";
+
             MessageBox obj = new MessageBox();
 
             using (SqlConnection cnn = new SqlConnection(connectionString))
@@ -68,7 +69,7 @@ namespace BOOKMEBUS
 
         protected void AddDatatoDb()
         {
-            string connectionString = "Data Source=DESKTOP-63T3P23;Initial Catalog=BookingTicketDB;Integrated Security=True;";
+
             MessageBox obj = new MessageBox();
 
             using (SqlConnection cnn = new SqlConnection(connectionString))
@@ -155,7 +156,6 @@ namespace BOOKMEBUS
 
         protected void updatedb()
         {
-            string connectionString = "Data Source=DESKTOP-63T3P23;Initial Catalog=BookingTicketDB;Integrated Security=True;";
             MessageBox obj = new MessageBox();
 
             using (SqlConnection cnn = new SqlConnection(connectionString))

@@ -11,7 +11,7 @@ namespace BOOKMEBUS
 {
     public partial class SearchTicket : System.Web.UI.Page
     {
-
+        private const string connectionString = "Data Source=DESKTOP-63T3P23;Initial Catalog=BookingTicketDB;Integrated Security=True;";
         private string connectionString;
 
         protected void Page_Load(object sender, EventArgs e)
@@ -24,7 +24,7 @@ namespace BOOKMEBUS
 
         private void PopulateDropDownLists()
         {
-            string connectionString = "Data Source=DESKTOP-63T3P23;Initial Catalog=BookingTicketDB;Integrated Security=True;";
+
             using (SqlConnection cnn = new SqlConnection(connectionString))
             {
                 try
@@ -64,7 +64,7 @@ namespace BOOKMEBUS
 
         protected void btnSearch_Click(object sender, EventArgs e)
         {
-            string connectionString = "Data Source=DESKTOP-63T3P23;Initial Catalog=BookingTicketDB;Integrated Security=True;";
+
             string origin = ddlOrigin.SelectedValue;
             string destination = ddlDestination.SelectedValue;
             string departureDate = txtDepartureDate.Text;
