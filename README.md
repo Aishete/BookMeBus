@@ -1,7 +1,3 @@
-Here's a README template you can use for your school project on GitHub, which includes a brief description of the project, instructions on how to run the project, and notes about the add function. 
-
----
-
 # Book Me Bus System
 
 ## Overview
