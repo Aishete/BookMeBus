@@ -12,7 +12,6 @@ namespace BOOKMEBUS
     public partial class SearchTicket : System.Web.UI.Page
     {
         private const string connectionString = "Data Source=DESKTOP-63T3P23;Initial Catalog=BookingTicketDB;Integrated Security=True;";
-        private string connectionString;
 
         protected void Page_Load(object sender, EventArgs e)
         {
